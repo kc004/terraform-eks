@@ -14,7 +14,7 @@ $ docker push ecr.amazonaws.com/REPO:tag
 Clone the source locally:
 
 ```
-$ https://github.com/kc004/terraform-eks.git
+$ git clone https://github.com/kc004/terraform-eks.git
 $ cd terraform-eks
 ```
 
