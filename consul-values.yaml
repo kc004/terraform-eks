@@ -1,0 +1,25 @@
+# helm-consul-values.yaml
+global:
+  datacenter: dc1
+
+server:
+  enabled: true
+  replicas: 1
+
+client:
+  enabled: true
+
+ui:
+  service:
+    type: 'LoadBalancer'
+
+dns:
+  enabled: true
+
+connectInject:
+  enabled: true
+  default: false
+
+syncCatalog:
+  enabled: true
+
